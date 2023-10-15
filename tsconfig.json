@@ -12,9 +12,18 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
     "moduleResolution": "node",
+    "paths": {
+      "my-lib": [
+        "dist/lib/lib",
+        "dist/lib"
+      ],
+    },
     "importHelpers": true,
-    "target": "es2017",
+    "target": "es2015",
     "module": "es2020",
     "lib": [
       "es2018",
